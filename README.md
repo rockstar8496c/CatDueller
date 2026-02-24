@@ -16,13 +16,15 @@ A skid of hypixel duels bot [duckdueller](https://github.com/HumanDuck23/DuckDue
 The release is not even obfuscated, most of the project is just untouched duckdueller and not to mention it has laughable auth. So laughable in fact that a toddler could remove it.
 Have fun using the clean version if you are a weirdo who bots hypixel duels in 2026.
 
-## Pathetic attempt at tracking users
+## Tracking users
 
-When I was removing whatever auth this dogshit had I stumbled upon this funny scene **(removed in the clean version)**
+**(everything listed below has been removed from the clean version for obvious reasons)**
+
+When I was removing whatever auth this dogshit had I stumbled upon this funny scene
 
 ![1](/images/tracking.png)
 
-For some reason whoever the fuck made this decided that the $30 you give for it is not enough and they also what to track your games.
+For some reason whoever the fuck made this shit decided that the $30 you give for it is not enough, and they also want to track your games.
 
 And it would not surprise anyone that this (now down) webhook belongs to a private channel in the devs discord server called "duels-logs-1".
 
@@ -40,4 +42,5 @@ And it would not surprise anyone that this (now down) webhook belongs to a priva
 }
 ````
 
-Kinda weird how they have a whole websocket thing set up for auth and/or dodging other users but to track games they just send a webhook message. Whatever ai made this clearly knows better.
+Though it is weird that in this case they use a webhook message to log your wins/losses but does not mean they are not also using their irc for tracking.
+There is a setting toggled on by default that sends all your queues to their websocket for dodging other users, but it could also be used to spy on your queues as well.
